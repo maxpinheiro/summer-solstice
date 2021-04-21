@@ -1,0 +1,30 @@
+{
+  "schedule": [
+    {"time": "5:00", "event":  "Bachelor & Bachelorette Bashes"},
+    {"time": "5:15", "event":  "Serving of Sumptuous Selections", "url":  "#sumptuous-selections"},
+    {"time": "5:30", "event":  "Tempestuous Trivia Time"},
+    {"time": "5:45", "event":  "Sultry Solstice Surprise"},
+    {"time": "6:00", "event":  "\"Moment by Moment\" by Matter Movement Group", "url":  "#moment-by-moment"},
+    {"time": "6:15", "event":  "Exploration of Enticing Edibles", "url":  "#enticing-edibles"},
+    {"time": "7:00", "event":  "Mood Modifying Music by Mother Zeta", "url":  "#mother-zeta"},
+    {"time": "8:15", "event":  "Cutting of Consummate Cake"},
+    {"time": "8:45", "event":  "More Mercurial Music by Mother Zeta", "url":  "#mother-zeta"},
+    {"time": "10:10", "event":  "Final Fireworks Finale"},
+    {"time": "11:11", "event":  "Love, Laughter, and Leftovers"}
+  ],
+  "appetizers": [
+    {"item":  "Ahi Tuna Cones", "description": "Seared Ahi Tuna Tartar in a Savory Sesame Cone\nWasabi Aioli, Tobiko Caviar & Pea Shoot Garnish"},
+    {"item":  "Baby Artichoke & Boursin Fritter", "description": "Red Pepper Aioli"},
+    {"item":  "Bacon Wrapped Scallops", "description": "Spicy Mayo"},
+    {"item":  "Jamaican Jerk Chicken Salad", "description": "on Tostone Fritter"},
+    {"item":  "Mini Chicken & Waffle Bites", "description": "Buttermilk Waffle topped with Popcorn Fried Chicken, Southern Comfort Maple Syrup Drizzle"},
+    {"item":  "Pigs in a Blanket", "description": "Honey Mustard"}
+  ],
+  "menu": [
+    {"item":  "Avocado Martini Bar", "description":  "Chunky Mashed Haas Avocado with Sea Salt & Lime\nToppings: Shrimp Escabeche – Crumbled Bacon – Diced Achiote Chicken \nChar Grilled Poblano Chiles & Onions - Pickled Jalapeno \nCorn & Black Bean Salsa – Pico de Gallo –Salsa Verde \nQueso Fresco – Chile Lime Crema\nToasted Pepita Seeds"},
+    {"item":  "Angus Burger Slider", "description":  "Toasted Onion Roll, Arugula, Aged Cheddar, Horseradish Sauce"},
+    {"item":  "Black Bean Burger Slider", "description":  "Brioche Bun, Roasted Poblano Peppers & Onions, Chipotle Mayo"},
+    {"item":  "Crab Cake Slider", "description":  "Challah Knot Roll, Bibb Lettuce & Classic Aioli"},
+    {"item":  "Nashville Hot Chicken Slider", "description":  "Martins Potato Bun, Toasted Onion Aioli, Bread & Butter Pickle"}
+  ]
+}
