@@ -124,8 +124,8 @@ export default class Home extends React.Component {
                                 <div>
                                     <pre className="text-center calibri my-0 text-3/4rem">{`${idx+1}. `}{song}</pre>
                                     <div className="d-flex flex-row justify-content-center">
-                                        <img src={laughing} alt="laughing" className="w-20vw"/>
-                                        <img src={laughing} alt="laughing" className="w-20vw"/>
+                                        <img src={laughing} alt="laughing" className="w-20vw h-20vw"/>
+                                        <img src={laughing} alt="laughing" className="w-20vw h-20vw"/>
                                     </div>
                                 </div>
                             : <pre className="text-center calibri my-0 text-3/4rem">{`${idx+1}. `}{song}</pre>

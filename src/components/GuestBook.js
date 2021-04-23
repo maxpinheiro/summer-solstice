@@ -7,7 +7,7 @@ export default class GuestBook extends React.Component {
     render() {
         return (
             <div>
-                guestbooks
+                guestbook
             </div>
         );
     }
