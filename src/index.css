@@ -20,8 +20,16 @@ code {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
-.title {
+.text-2rem {
   font-size: 2rem;
+}
+
+.text-1rem {
+  font-size: 1rem;
+}
+
+.text-3\/4rem {
+  font-size: 0.75rem;
 }
 
 .orange-border {
@@ -38,5 +46,9 @@ code {
 
 .w-40vw {
   width: 40vw;
+}
+
+.w-20vw {
+  width: 20vw;
 }
 
