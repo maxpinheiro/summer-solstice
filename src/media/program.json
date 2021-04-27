@@ -21,7 +21,7 @@
     {"item":  "Pigs in a Blanket", "description": "Honey Mustard"}
   ],
   "menu": [
-    {"item":  "Avocado Martini Bar", "description":  "Chunky Mashed Haas Avocado with Sea Salt & Lime\nToppings:\nShrimp Escabeche – Crumbled Bacon\nDiced Achiote Chicken \nChar Grilled Poblano Chiles & Onions\nPickled Jalapeno, Salsa Verde\nCorn & Black Bean Salsa – Pico de Gallo \nQueso Fresco – Chile Lime Crema\nToasted Pepita Seeds"},
+    {"item":  "Avocado Martini Bar", "description":  "Chunky Haas Avocado with Sea Salt & Lime\nToppings:\nShrimp Escabeche – Crumbled Bacon\nDiced Achiote Chicken \nChar Grilled Poblano Chiles & Onions\nPickled Jalapeno, Salsa Verde\nCorn & Black Bean Salsa – Pico de Gallo \nQueso Fresco – Chile Lime Crema\nToasted Pepita Seeds"},
     {"item":  "Angus Burger Slider", "description":  "Aged Cheddar, Arugula, Horseradish Sauce, Toasted Onion Roll"},
     {"item":  "Black Bean Burger Slider", "description":  "Roasted Poblano Peppers & Onions, Chipotle Mayo, Brioche Bun"},
     {"item":  "Crab Cake Slider", "description":  "Challah Knot Roll, Bibb Lettuce & Classic Aioli"},

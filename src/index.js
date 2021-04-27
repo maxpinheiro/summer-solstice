@@ -7,12 +7,14 @@ import reportWebVitals from './reportWebVitals';
 import Home from './components/Home';
 import EggCarton from "./components/EggCarton";
 import GuestBook from "./components/GuestBook";
+import Quizzes from "./components/Quizzes";
 
 ReactDOM.render(
   <React.StrictMode>
       <Router>
           <Switch>
               <Route path="/easter-eggs/:name" component={EggCarton}/>
+              <Route path="/quiz/:gender" component={Quizzes}/>
               <Route path="/guestbook" component={GuestBook}/>
               <Route path="/" component={Home}/>
           </Switch>

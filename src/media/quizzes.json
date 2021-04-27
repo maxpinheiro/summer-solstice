@@ -1,0 +1,106 @@
+{
+  "men": [
+    {
+      "question": "True or False:  Scott and Lisa were born in the same hospital.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "True or False:  Scott is older than Lisa.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "When is Scott's Birthday?",
+      "options": ["8/1", "8/2", "8/3", "8/4", "8/5"],
+      "answer": "8/2"
+    },
+    {
+      "question": "What color are Scott's eyes?",
+      "options": ["Blue", "Brown", "Green", "Hazel", "All of the above"],
+      "answer": "?"
+    },
+    {
+      "question": "Regardless of what Scott says, how tall is he actually?",
+      "options": ["5'11\"", "6'0\"", "6'1\"", "6'2\"", "6'3\""],
+      "answer": "?"
+    },
+    {
+      "question": "What is Scott’s favorite cocktail?",
+      "options": ["Dark & Stormy", "Gin & Tonic", "Mojito", "Margarita", "Whisky Sour"],
+      "answer": "?"
+    },
+    {
+      "question": "How many girls did Scott date before meeting Lisa?",
+      "options": ["1-10", "11-20", "21-30", "31-40", "> 50 (what a slut)"],
+      "answer": "?"
+    },
+    {
+      "question": "What year did Scott and Lisa start dating?",
+      "options": ["1991", "1992", "1993", "1994", "1995"],
+      "answer": "?"
+    },
+    {
+      "question": "On which # date did Scott first have sex with Lisa?",
+      "options": ["2", "4", "6", "8", "10"],
+      "answer": "?"
+    },
+    {
+      "question": "What is Scott’s favorite sex position?",
+      "options": ["Doggy Style", "Girl on Top", "Missionary", "Reverse Cowgirl", "Sixty-Nine"],
+      "answer": "?"
+    }
+  ],
+  "women": [
+    {
+      "question": "True or False:  Lisa and Scott were born in the same hospital.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "True or False:  Lisa is older than Scott.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "When is Lisa's Birthday?",
+      "options": ["6/26", "6/27", "6/28", "6/29", "6/30"],
+      "answer": "6/27"
+    },
+    {
+      "question": "What color are Lisa's eyes?",
+      "options": ["Blue", "Brown", "Green", "Hazel", "All of the above"],
+      "answer": "?"
+    },
+    {
+      "question": "Regardless of what Lisa says, how tall is she actually?",
+      "options": ["4'11\"", "5'0\"", "5'1\"", "5'2\"", "5'3\""],
+      "answer": "?"
+    },
+    {
+      "question": "What is Lisa’s favorite cocktail?",
+      "options": ["Dark & Stormy", "Gin & Tonic", "Mojito", "Margarita", "Whisky Sour"],
+      "answer": "?"
+    },
+    {
+      "question": "How many guys did Lisa date before meeting Scott?",
+      "options": ["1-10", "11-20", "21-30", "31-40", "> 50 (what a slut)"],
+      "answer": "?"
+    },
+    {
+      "question": "What year did Lisa and Scott start dating?",
+      "options": ["1991", "1992", "1993", "1994", "1995"],
+      "answer": "?"
+    },
+    {
+      "question": "On which # date did Lisa first have sex with Lisa?",
+      "options": ["2", "4", "6", "8", "10"],
+      "answer": "?"
+    },
+    {
+      "question": "What is Lisa’s favorite sex position?",
+      "options": ["Doggy Style", "Girl on Top", "Missionary", "Reverse Cowgirl", "Sixty-Nine"],
+      "answer": "?"
+    }
+  ]
+}
