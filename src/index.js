@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,6 +8,9 @@ import Home from './components/Home';
 import EggCarton from "./components/EggCarton";
 import GuestBook from "./components/GuestBook";
 import Quizzes from "./components/Quizzes";
+import Error404 from "./components/404";
+
+const FourOhFour = () => <div className="text-center"><Error404/><Link to="/">Home</Link></div>
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +19,8 @@ ReactDOM.render(
               <Route exact path="/easter-eggs/:name" component={EggCarton}/>
               <Route exact path="/quiz/:gender" component={Quizzes}/>
               <Route exact path="/guestbook" component={GuestBook}/>
-              <Route path="/" component={Home}/>
+              <Route exact path="/" component={Home}/>
+              <Route component={FourOhFour}/>
           </Switch>
       </Router>
   </React.StrictMode>,
