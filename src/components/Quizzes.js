@@ -39,7 +39,6 @@ const Quiz = ({gender, addScore}) => {
                         <div className="text-2rem">
                             <div className="h-20vh" />
                             <p>Your score: {score}</p>
-                            <button className={`btn text-2rem ${color()}`} onClick={() => {setScore(0); setQuestion(0);}}>Retake Quiz</button>
                         </div>
                     }
                 </div>
