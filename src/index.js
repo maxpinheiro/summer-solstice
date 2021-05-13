@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {HashRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,9 +13,9 @@ ReactDOM.render(
   <React.StrictMode>
       <Router>
           <Switch>
-              <Route path="/easter-eggs/:name" component={EggCarton}/>
-              <Route path="/quiz/:gender" component={Quizzes}/>
-              <Route path="/guestbook" component={GuestBook}/>
+              <Route exact path="/easter-eggs/:name" component={EggCarton}/>
+              <Route exact path="/quiz/:gender" component={Quizzes}/>
+              <Route exact path="/guestbook" component={GuestBook}/>
               <Route path="/" component={Home}/>
           </Switch>
       </Router>

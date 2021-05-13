@@ -1,4 +1,5 @@
 import React from 'react';
+import Error404 from "./404";
 
 export default class EggCarton extends React.Component {
     state = {
@@ -14,7 +15,7 @@ export default class EggCarton extends React.Component {
         return (
             <div>
                 {!(this.state.name) &&
-                    <p>404: No egg found here!</p>
+                    <Error404 message="No easter egg found here!" />
                 }
             </div>
         );
