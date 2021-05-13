@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/summer-solstice/static/css/main.48dbf619.chunk.css",
-    "main.js": "/summer-solstice/static/js/main.e6248dda.chunk.js",
-    "main.js.map": "/summer-solstice/static/js/main.e6248dda.chunk.js.map",
-    "runtime-main.js": "/summer-solstice/static/js/runtime-main.39d8fdbb.js",
-    "runtime-main.js.map": "/summer-solstice/static/js/runtime-main.39d8fdbb.js.map",
-    "static/js/2.5832008c.chunk.js": "/summer-solstice/static/js/2.5832008c.chunk.js",
-    "static/js/2.5832008c.chunk.js.map": "/summer-solstice/static/js/2.5832008c.chunk.js.map",
-    "static/js/3.8d142a3a.chunk.js": "/summer-solstice/static/js/3.8d142a3a.chunk.js",
-    "static/js/3.8d142a3a.chunk.js.map": "/summer-solstice/static/js/3.8d142a3a.chunk.js.map",
+    "main.css": "/summer-solstice/static/css/main.bf48c020.chunk.css",
+    "main.js": "/summer-solstice/static/js/main.312d1a4b.chunk.js",
+    "main.js.map": "/summer-solstice/static/js/main.312d1a4b.chunk.js.map",
+    "runtime-main.js": "/summer-solstice/static/js/runtime-main.be56841f.js",
+    "runtime-main.js.map": "/summer-solstice/static/js/runtime-main.be56841f.js.map",
+    "static/js/2.27fa8821.chunk.js": "/summer-solstice/static/js/2.27fa8821.chunk.js",
+    "static/js/2.27fa8821.chunk.js.map": "/summer-solstice/static/js/2.27fa8821.chunk.js.map",
+    "static/js/3.79abd5ef.chunk.js": "/summer-solstice/static/js/3.79abd5ef.chunk.js",
+    "static/js/3.79abd5ef.chunk.js.map": "/summer-solstice/static/js/3.79abd5ef.chunk.js.map",
     "index.html": "/summer-solstice/index.html",
-    "static/css/main.48dbf619.chunk.css.map": "/summer-solstice/static/css/main.48dbf619.chunk.css.map",
-    "static/js/2.5832008c.chunk.js.LICENSE.txt": "/summer-solstice/static/js/2.5832008c.chunk.js.LICENSE.txt",
+    "static/css/main.bf48c020.chunk.css.map": "/summer-solstice/static/css/main.bf48c020.chunk.css.map",
+    "static/js/2.27fa8821.chunk.js.LICENSE.txt": "/summer-solstice/static/js/2.27fa8821.chunk.js.LICENSE.txt",
     "static/media/bird.fa4150ec.png": "/summer-solstice/static/media/bird.fa4150ec.png",
     "static/media/bouqet.1ab5a837.png": "/summer-solstice/static/media/bouqet.1ab5a837.png",
     "static/media/dancing.f3294787.png": "/summer-solstice/static/media/dancing.f3294787.png",
@@ -19,9 +19,9 @@
     "static/media/laughing.e26bb530.png": "/summer-solstice/static/media/laughing.e26bb530.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.39d8fdbb.js",
-    "static/js/2.5832008c.chunk.js",
-    "static/css/main.48dbf619.chunk.css",
-    "static/js/main.e6248dda.chunk.js"
+    "static/js/runtime-main.be56841f.js",
+    "static/js/2.27fa8821.chunk.js",
+    "static/css/main.bf48c020.chunk.css",
+    "static/js/main.312d1a4b.chunk.js"
   ]
 }
