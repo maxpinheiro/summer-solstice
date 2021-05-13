@@ -35,6 +35,10 @@
   border-radius: 50px;
 }
 
+.img-bw {
+  filter: grayscale(100%);
+}
+
 /* sizing */
 
 .minh-100 {
