@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { proxy } from 'valtio'
 import quizzes from '../media/quizzes.json';
 import Error404 from "./404";
-import bird from '../media/bird.png';
+import bird from '../media/birdFlower.png';
 
 const colors = ['bg-orange', 'bg-yellow', 'bg-green'];
 const state = proxy({colorIdx: Math.floor(Math.random() * colors.length)});

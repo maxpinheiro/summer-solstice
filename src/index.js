@@ -16,7 +16,7 @@ ReactDOM.render(
   <React.StrictMode>
       <Router>
           <Switch>
-              <Route exact path="/easter-eggs/:name" component={EggCarton}/>
+              <Route exact path="/easter-egg/:name" component={EggCarton}/>
               <Route exact path="/quiz/:gender" component={Quizzes}/>
               <Route exact path="/guestbook" component={GuestBook}/>
               <Route exact path="/" component={Home}/>

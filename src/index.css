@@ -41,20 +41,20 @@
 
 /* sizing */
 
-.minh-100 {
-  min-height: 100vh;
+.w-20vw {
+  width: 20vw;
 }
 
 .w-40vw {
   width: 40vw;
 }
 
-.w-20vw {
-  width: 20vw;
-}
-
 .h-20vh {
   height: 20vh;
+}
+
+.minh-100 {
+  min-height: 100vh;
 }
 
 /* typography */
@@ -65,6 +65,10 @@
 
 .calibri {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.comic-sans {
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
 
 .text-2rem {

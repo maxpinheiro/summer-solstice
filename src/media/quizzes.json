@@ -108,5 +108,69 @@
       }
     ],
     "number": 27
+  },
+  "whos-who": {
+    "questions": [
+      {
+        "question": "Who is our youngest friend here?",
+        "options": ["Adam the Adventurous", "Kelly the Kittenish", "Ryan the Relatable", "Sarah the Swollen", "Teddy the Thrilling"],
+        "answer": "Kelly the Kittenish"
+      },
+      {
+        "question": "Who is our oldest friend here?",
+        "options": ["Christian the Cuddly", "Frank the Friendly", "John the Jovial", "Holly the Heavenly", "Tara the Terrific"],
+        "answer": "Frank the Friendly"
+      },
+      {
+        "question": "Who here has known Lisa longest?",
+        "options": ["Lee the Lively", "Lisa the Lavish", "Lisa the Luscious", "Liz the Luminous", "Liza the Lovely"],
+        "answer": "Lisa the Lavish"
+      },
+      {
+        "question": "Who here has known Scott longest?",
+        "options": ["Betsy the Benevolent", "Brian the Bohemian", "Jon the Jubilant", "Ryan the Relatable", "Won the Wondrous"],
+        "answer": "Betsy the Benevolent"
+      },
+      {
+        "question": "Who traveled the farthest for the celebration?",
+        "options": ["Jason the Jovial", "Jim the Jolly", "Kristen the Kind", "Melissa the Masterful", "Scott the Scintillating"],
+        "answer": "Jason the Jovial"
+      },
+      {
+        "question": "Which bridesmaid was born in the contiguous United States?",
+        "options": ["Annie the Auspicious", "Antje the Angelic", "Liz the Luminous", "Liza the Lovely", "Marines the Magnanimous"],
+        "answer": "Liza the Lovely"
+      },
+      {
+        "question": "Which groomsman was born in the contiguous United States?",
+        "options": ["Alex the Affable", "Christian the Cuddly", "Evelio the Effervescent", "Mike the Mellow", "Mitch the Merry", "Orr the Original", "Won the Wondrous"],
+        "answer": "Mike the Mellow"
+      },
+      {
+        "question": "Which couple did not walk to the celebration?",
+        "options": ["Donn the Dynamic & Holly the Heavenly", "Lee the Lively & Annie the Auspicious", "Michael the Mercurial & Susan the Suggestive", "Jon the Jovial & Liz the Luminous", "Tom the Talented & Jess the Joyous"],
+        "answer": "Michael the Mercurial & Susan the Suggestive"
+      },
+      {
+        "question": "Which of these couples are married?",
+        "options": ["Andy the Amusing & Michelle the Mighty", "Jim the Jolly & Marines the Magnanimous", "Jon the Jubilant & Mel the Mysterious", "Scott the Scintillating & Porter the Passionate", "Tim the Tremendous & Cindy the Celestial"],
+        "answer": "Andy the Amusing & Michelle the Mighty"
+      },
+      {
+        "question": "Which of these couples have fewer than 3 children?",
+        "options": ["Bernie the Boisterous & Liza the Lovely", "Betsy the Benevolent & Anthony the Amusing", "Christian the Cuddly & Tina the Titillated", "Mitch the Merry & Tara the Terrific", "Orr the Original & Betsy the Bewitching"],
+        "answer": "Orr the Original & Betsy the Bewitching"
+      },
+      {
+        "question": "Which one of these friends has not been to a Phish show?",
+        "options": ["Carol the Colorful", "Jason the Jazzy", "Jason the Jovial", "Jon the Jubilant", "Jimmy the Jaunty", "Kristen the Kind", "Dana the Delightful", "Mike the Mellow", "Missy the Mindful", "Rob the Recalcitrant", "Ryan the Relatable"],
+        "answer": "Dana the Delightful"
+      },
+      {
+        "question": "Which of the following is not a Phish song? (Feel free to ask for help from a Phriend.)",
+        "options": ["Glide", "Grind", "Stash", "Twist", "Turn"],
+        "answer": "Turn"
+      }
+    ]
   }
 }
