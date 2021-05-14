@@ -7,7 +7,7 @@ import bird from '../media/bird.png';
 const colors = ['bg-orange', 'bg-yellow', 'bg-green'];
 const state = proxy({colorIdx: Math.floor(Math.random() * colors.length)});
 
-const Quiz = ({gender, addScore}) => {
+const Quiz = ({gender, setGender}) => {
     const [question, setQuestion] = useState(-1);
     const [score, setScore] = useState(0);
     const color = () => {const c = colors[state.colorIdx]; state.colorIdx = (state.colorIdx + 1) % colors.length; return c;};
@@ -17,7 +17,7 @@ const Quiz = ({gender, addScore}) => {
             <div className="py-3"/>
             {question === -1 ?
                 <div>
-                    <img src={bird} alt="bird" className="w-40vw mx-auto img-bw"/>
+                    <img src={bird} alt="bird" className="w-40vw mx-auto img-bw" onClick={() => setGender(gender === 'men' ? 'women' : 'men')}/>
                     <p className="text-2rem">{gender === 'men' ? 'Bachelor\'s' : 'Bachelorette\'s'} Quest</p>
                     <p>(Whosoever shall score the highest on this trivia trial will be granted the distinction of serving as {gender === 'men' ? 'Scott\'s Best Man' : 'Lisa\'s Maid of Honor'} today. Good luck.)</p>
                     <button className={`btn text-2rem ${color()}`} onClick={() => {setScore(0); setQuestion(0);}}>Start</button>
@@ -70,7 +70,7 @@ export default class Quizzes extends React.Component {
             <div className="text-center">
                 { (["men", "women"]).includes(this.state.gender) ?
                     <div>
-                        <Quiz gender={this.state.gender} />
+                        <Quiz gender={this.state.gender} setGender={(gender) => this.setState({gender})}/>
                     </div> :
                     <Error404 message="No quiz found here!" />
                 }
