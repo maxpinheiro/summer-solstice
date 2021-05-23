@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/summer-solstice/static/css/main.d1b51a33.chunk.css",
-    "main.js": "/summer-solstice/static/js/main.4e3396df.chunk.js",
-    "main.js.map": "/summer-solstice/static/js/main.4e3396df.chunk.js.map",
+    "main.css": "/summer-solstice/static/css/main.32c4cfc9.chunk.css",
+    "main.js": "/summer-solstice/static/js/main.1488b4c0.chunk.js",
+    "main.js.map": "/summer-solstice/static/js/main.1488b4c0.chunk.js.map",
     "runtime-main.js": "/summer-solstice/static/js/runtime-main.51f8d218.js",
     "runtime-main.js.map": "/summer-solstice/static/js/runtime-main.51f8d218.js.map",
     "static/js/2.4a5616dd.chunk.js": "/summer-solstice/static/js/2.4a5616dd.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1b429f4d.chunk.js": "/summer-solstice/static/js/3.1b429f4d.chunk.js",
     "static/js/3.1b429f4d.chunk.js.map": "/summer-solstice/static/js/3.1b429f4d.chunk.js.map",
     "index.html": "/summer-solstice/index.html",
-    "static/css/main.d1b51a33.chunk.css.map": "/summer-solstice/static/css/main.d1b51a33.chunk.css.map",
+    "static/css/main.32c4cfc9.chunk.css.map": "/summer-solstice/static/css/main.32c4cfc9.chunk.css.map",
     "static/js/2.4a5616dd.chunk.js.LICENSE.txt": "/summer-solstice/static/js/2.4a5616dd.chunk.js.LICENSE.txt",
     "static/media/HeartPhoto.b47b9e23.jpeg": "/summer-solstice/static/media/HeartPhoto.b47b9e23.jpeg",
     "static/media/birdFlower.fa4150ec.png": "/summer-solstice/static/media/birdFlower.fa4150ec.png",
@@ -23,12 +23,15 @@
     "static/media/laughing.e26bb530.png": "/summer-solstice/static/media/laughing.e26bb530.png",
     "static/media/prometheus.09f0a838.png": "/summer-solstice/static/media/prometheus.09f0a838.png",
     "static/media/sun.dd9adbfd.gif": "/summer-solstice/static/media/sun.dd9adbfd.gif",
-    "static/media/sunflowerRock.c6639259.jpeg": "/summer-solstice/static/media/sunflowerRock.c6639259.jpeg"
+    "static/media/sunGlobe.9507c8c5.png": "/summer-solstice/static/media/sunGlobe.9507c8c5.png",
+    "static/media/sunflowerRock.c6639259.jpeg": "/summer-solstice/static/media/sunflowerRock.c6639259.jpeg",
+    "static/media/veterans.5e7b07c3.mp4": "/summer-solstice/static/media/veterans.5e7b07c3.mp4",
+    "static/media/veteransCover.44a8032c.png": "/summer-solstice/static/media/veteransCover.44a8032c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.51f8d218.js",
     "static/js/2.4a5616dd.chunk.js",
-    "static/css/main.d1b51a33.chunk.css",
-    "static/js/main.4e3396df.chunk.js"
+    "static/css/main.32c4cfc9.chunk.css",
+    "static/js/main.1488b4c0.chunk.js"
   ]
 }
