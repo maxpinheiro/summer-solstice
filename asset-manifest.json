@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/summer-solstice/static/css/main.34db3842.chunk.css",
-    "main.js": "/summer-solstice/static/js/main.38416c76.chunk.js",
-    "main.js.map": "/summer-solstice/static/js/main.38416c76.chunk.js.map",
+    "main.css": "/summer-solstice/static/css/main.06f2fd2d.chunk.css",
+    "main.js": "/summer-solstice/static/js/main.0f1325a3.chunk.js",
+    "main.js.map": "/summer-solstice/static/js/main.0f1325a3.chunk.js.map",
     "runtime-main.js": "/summer-solstice/static/js/runtime-main.51f8d218.js",
     "runtime-main.js.map": "/summer-solstice/static/js/runtime-main.51f8d218.js.map",
     "static/js/2.093c5300.chunk.js": "/summer-solstice/static/js/2.093c5300.chunk.js",
@@ -10,10 +10,11 @@
     "static/js/3.1b429f4d.chunk.js": "/summer-solstice/static/js/3.1b429f4d.chunk.js",
     "static/js/3.1b429f4d.chunk.js.map": "/summer-solstice/static/js/3.1b429f4d.chunk.js.map",
     "index.html": "/summer-solstice/index.html",
-    "static/css/main.34db3842.chunk.css.map": "/summer-solstice/static/css/main.34db3842.chunk.css.map",
+    "static/css/main.06f2fd2d.chunk.css.map": "/summer-solstice/static/css/main.06f2fd2d.chunk.css.map",
     "static/js/2.093c5300.chunk.js.LICENSE.txt": "/summer-solstice/static/js/2.093c5300.chunk.js.LICENSE.txt",
     "static/media/birdFlower.fa4150ec.png": "/summer-solstice/static/media/birdFlower.fa4150ec.png",
     "static/media/bouquet.1ab5a837.png": "/summer-solstice/static/media/bouquet.1ab5a837.png",
+    "static/media/coupleRun.9f8a6ed8.png": "/summer-solstice/static/media/coupleRun.9f8a6ed8.png",
     "static/media/dancing.f3294787.png": "/summer-solstice/static/media/dancing.f3294787.png",
     "static/media/flowerGirl.efc87649.png": "/summer-solstice/static/media/flowerGirl.efc87649.png",
     "static/media/laughing.e26bb530.png": "/summer-solstice/static/media/laughing.e26bb530.png",
@@ -23,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.51f8d218.js",
     "static/js/2.093c5300.chunk.js",
-    "static/css/main.34db3842.chunk.css",
-    "static/js/main.38416c76.chunk.js"
+    "static/css/main.06f2fd2d.chunk.css",
+    "static/js/main.0f1325a3.chunk.js"
   ]
 }
