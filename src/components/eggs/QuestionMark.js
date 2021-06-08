@@ -25,22 +25,43 @@ const QuestionMark = () => {
                 <img src={bird} alt="bird" className="w-20vw img-bw float-right my-3" />
                 <img src={sun} alt="sun" className="" />
             </div>
-            <div className="minh-100">
+            <div className="minh-100 mb-2">
                 Why not be grateful for the little things
             </div>
-            <div className="minh-100">
+            <div className="minh-100 mt-2">
                 <img src={sunflowerRock} alt="sunflower" className="w-40vw mx-auto" />
             </div>
             <div className="minh-100">
                 <h3>?</h3>
             </div>
             <div className="minh-100">
-                <h3>??<br/><br/>???<br/><br/>????<br/><br/>?????<br/><br/>???????</h3>
-                <h3><br/>Why are you still scrolling</h3>
-                <h3><br/>???????<br/><br/>????????</h3>
+                <h3>??</h3>
+            </div>
+            <div className="minh-100">
+                <h3>???</h3>
+            </div>
+            <div className="minh-100">
+                <h3>????</h3>
+            </div>
+            <div className="minh-100">
+                <h3>?????</h3>
+            </div>
+            <div className="minh-100">
+                <h3>???????</h3>
+            </div>
+            <div className="minh-100">
+                <h3>Why are you still scrolling</h3>
+            </div>
+            <div className="minh-100">
+                <h3>???????</h3>
+            </div>
+            <div className="minh-100">
+                <h3>????????</h3>
+            </div>
+            <div className="minh-100">
                 <h3>Seriously, there's nothing more but</h3>
-                <h3>?????????<br/>????????????<br/>????????????????<br/>???????????<br/>??????<br/>???<br/>?<br/></h3>
-                {list.map((_, idx) => <h3 key={idx}>?</h3>)}
+                <h3><br/>?????????<br/><br/>????????????<br/><br/>????????????????<br/><br/>???????????<br/><br/>??????<br/><br/>???<br/><br/>?<br/></h3>
+                {list.map((_, idx) => <h3 key={idx} className="my-5">?</h3>)}
             </div>
             <div ref={loader}/>
         </div>
