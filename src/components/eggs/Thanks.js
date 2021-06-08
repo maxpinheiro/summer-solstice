@@ -1,8 +1,6 @@
 import React from 'react';
 
 import sunGlobe from '../../media/sunGlobe.png';
-import veterans from '../../media/veterans.mp4';
-import veteransCover from '../../media/veteransCover.png';
 
 const Thanks = () => {
     return (
@@ -24,10 +22,6 @@ const Thanks = () => {
                 <h6 className="my-1">Before the time comes to see you away:</h6>
                 <h6 className="my-1">"Here’s to you our dear friends...Hip-Hip Hooray”</h6>
             </div>
-            <video width="100%" height="100%" controls poster={veteransCover}>
-                <source src={veterans} type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
         </div>
     )
 }
