@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import bouquet from '../../media/bouquet.png';
 import fieldSunset from '../../media/fieldSunset.png';
 import prometheus from '../../media/prometheus.png';
+import Spin from 'react-reveal/Spin';
+import Wobble from "react-reveal/Wobble";
 
 const WhatDidTheyDo = () => {
+    const [prometh, setPrometh] = useState(false);
+
     return (
         <div className="container calibri text-center text-5/6rem">
             <div className="my-3">
@@ -46,7 +50,11 @@ const WhatDidTheyDo = () => {
                 <p className="my-0 font-weight-bold text-1rem">Are you serious?</p>
                 <div className="my-1"/>
                 <p className="my-0">Maybe so,</p>
-                <img src={prometheus} alt="prometheus" className="w-40vw mx-auto" />
+                <Wobble>
+                    <Spin spy={prometh}>
+                        <img src={prometheus} alt="prometheus" className="w-40vw mx-auto my-5" onClick={() => setPrometh(!prometh)}/>
+                    </Spin>
+                </Wobble>
                 <p className="mt-2 mb-5">Maybe not.</p>
             </div>
         </div>

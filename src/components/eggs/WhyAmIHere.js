@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import laughingGroup from '../../media/laughingGroup.png';
+import StepProgressBar from 'react-step-progress';
+import 'react-step-progress/dist/index.css';
 
 const options = ['Free Food', 'Lots of Libations', 'Convivial Conversation', 'Consummate Cake', 'Exciting Entertainment', 'Witnessing Whatever', 'Final Fireworks Finale', 'Hoping to Hookup', 'Had nothing better to Do', 'Didn’t want to get on Lisa’s Bad Side'];
 
@@ -19,6 +21,8 @@ const WhyAmIHere = () => {
         else return 'Maybe you should have just stayed at home. Try to enjoy the celebration anyway.';
     }
 
+    const submit = (score) => setScore(score);
+
     return (
         <div className="container calibri text-center mt-3">
             <img src={laughingGroup} alt="laughing" className="w-40vw mx-auto" />
@@ -32,11 +36,14 @@ const WhyAmIHere = () => {
                             <p className={`btn mx-auto ${selected.includes(idx) ? 'btn-green' : 'btn-outline-success'}`} onClick={() => updateList(idx)} key={idx}>{option}</p>
                         )}
                     </div>
-                    <button className="btn bg-green" onClick={() => setScore(selected.length)}>Submit</button>
+                    <button className="btn bg-green" onClick={() => submit(selected.length)}>Submit</button>
                 </div> :
                 <div className="">
                     <p>Result: {score}/10</p>
                     {result(score)}
+                    <div className="meter d-flex flex-column">
+                        <span style="width:80%;"><span className="progress"></span></span>
+                    </div>
                     <button className="btn bg-green d-block mx-auto" onClick={() => {setScore(-1); setSelected([])}}>Retake</button>
                 </div>
             }

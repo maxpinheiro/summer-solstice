@@ -6,6 +6,7 @@ import Swing from 'react-reveal/Swing';
 import Jump from 'react-reveal/Jump';
 import Shake from 'react-reveal/Shake';
 import Spin from 'react-reveal/Spin';
+import Wobble from "react-reveal/Wobble";
 
 import program from '../media/program.json';
 import bouquet from '../media/bouquet.png';
@@ -13,6 +14,7 @@ import birdFlower from '../media/birdFlower.png';
 import dancing from '../media/dancing.png';
 import flowerGirl from '../media/flowerGirl.png';
 import laughing from '../media/laughing.png';
+import runningMan from '../media/runningArmsUp.png';
 
 export default class Home extends React.Component {
     state = {
@@ -23,7 +25,8 @@ export default class Home extends React.Component {
         "dancing": false,
         "flowerGirl": false,
         "man1": false,
-        "man2": false
+        "man2": false,
+        "runningMan": false
     }
 
     constructor(props) {
@@ -177,6 +180,29 @@ export default class Home extends React.Component {
         )
     }
 
+    Credits() {
+        return (
+            <div className="text-center calibri text-1-rem">
+                <Wobble spy={this.state.runningMan}><img src={runningMan} alt="runningMan" className="w-40vw mx-auto mb-3" onClick={() => this.setState(prevState => ({...prevState, runningMan: !prevState.runningMan}))}/></Wobble>
+                <p className="font-weight-bold mb-0">Produced by</p>
+                <p>B. Scott Pinheiro</p>
+                <div className="my-2" />
+                <p className="font-weight-bold mb-0">Executive Producer</p>
+                <p>Lisa Winer Pinheiro</p>
+                <div className="my-2" />
+                <p className="font-weight-bold mb-0">Creative & Technical Director</p>
+                <p>Maxwell E. Pinheiro</p>
+                <div className="my-2" />
+                <p className="font-weight-bold mb-0">The Occasional Idea Guy</p>
+                <p>Benjamin B. Pinheiro</p>
+                <div className="my-2" />
+                <p className="font-weight-bold mb-0">Emotional Support</p>
+                <p>Samson & Delilah</p>
+                <div className="h-20vh" />
+            </div>
+        )
+    }
+
     render() {
         return (
             <div className="container-fluid p-3">
@@ -190,6 +216,7 @@ export default class Home extends React.Component {
                 {this.MomentByMoment()}
                 {this.MotherZeta()}
                 {this.Playlist()}
+                {this.Credits()}
             </div>
         );
     }

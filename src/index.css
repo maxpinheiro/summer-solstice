@@ -95,6 +95,10 @@
   font-family: 'Lobster', sans-serif;
 }
 
+.text-4rem {
+  font-size: 4rem;
+}
+
 .text-2rem {
   font-size: 2rem;
 }

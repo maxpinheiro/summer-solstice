@@ -133,7 +133,7 @@
       },
       {
         "question": "Who traveled the farthest for the celebration?",
-        "options": ["Jason the Jovial", "Jim the Jolly", "Kristen the Kind", "Melissa the Masterful", "Scott the Scintillating"],
+        "options": ["Jason the Jovial", "Jim the Jolly", "Joey the Just", "Melissa the Masterful", "Scott the Scintillating"],
         "answer": "Jason the Jovial"
       },
       {
@@ -143,8 +143,8 @@
       },
       {
         "question": "Which groomsman was born in the contiguous United States?",
-        "options": ["Alex the Affable", "Christian the Cuddly", "Evelio the Effervescent", "Mike the Mellow", "Mitch the Merry", "Orr the Original", "Won the Wondrous"],
-        "answer": "Mike the Mellow"
+        "options": ["Alex the Affable", "Christian the Cuddly", "Evelio the Effervescent", "Brian the Bodacious", "Mitch the Merry", "Orr the Original"],
+        "answer": "Brian the Bodacious"
       },
       {
         "question": "Which couple did not walk to the celebration?",
@@ -153,7 +153,7 @@
       },
       {
         "question": "Which of these couples are married?",
-        "options": ["Andy the Amusing & Michelle the Mighty", "Jim the Jolly & Marines the Magnanimous", "Jon the Jubilant & Mel the Mysterious", "Scott the Scintillating & Porter the Passionate", "Tim the Tremendous & Cindy the Celestial"],
+        "options": ["Andy the Amusing & Michelle the Mighty", "Jim the Joyful & Jeanne the Joyful", "Joey the Just and Kristina the Kind", "Scott the Scintillating & Porter the Passionate", "MaryPat the Mysterious and Cindy the Celestial"],
         "answer": "Andy the Amusing & Michelle the Mighty"
       },
       {
@@ -163,8 +163,8 @@
       },
       {
         "question": "Which one of these friends has not been to a Phish show?",
-        "options": ["Carol the Colorful", "Jason the Jazzy", "Jason the Jovial", "Jon the Jubilant", "Jimmy the Jaunty", "Kristen the Kind", "Dana the Delightful", "Mike the Mellow", "Missy the Mindful", "Rob the Recalcitrant", "Ryan the Relatable"],
-        "answer": "Dana the Delightful"
+        "options": ["Brian the Bohemian", "Carol the Colorful", "Jason the Jazzy", "Jason the Jovial", "Joey the Just", "Jon the Jubilant", "Jimmy the Jaunty", "Josh the Genuine", "Kristina the Kind", "Missy the Mindful", "Rob the Recalcitrant", "Ryan the Relatable"],
+        "answer": "Josh the Genuine"
       },
       {
         "question": "Which of the following is not a Phish song? (Feel free to ask for help from a Phriend.)",

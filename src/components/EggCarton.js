@@ -16,8 +16,10 @@ import Thanks from "./eggs/Thanks";
 import IDo from "./eggs/IDo";
 import Virgin from "./eggs/Virgin";
 import Memories from "./eggs/Memories";
+import Bq from "./eggs/Bq";
+import Btq from "./eggs/Btq";
 
-const components = { WhosWho, QuestionMark, WhyAmIHere, Bios, MagicalMemories, WhatDidTheyDo, Heart, DaveyMoore, Today, Thanks, IDo, Virgin, Memories };
+const components = { WhosWho, QuestionMark, WhyAmIHere, Bios, MagicalMemories, WhatDidTheyDo, Heart, DaveyMoore, Today, Thanks, IDo, Virgin, Memories, Bq, Btq };
 
 export default class EggCarton extends React.Component {
     state = {
