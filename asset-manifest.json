@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/summer-solstice/static/css/main.32c4cfc9.chunk.css",
-    "main.js": "/summer-solstice/static/js/main.4fb47eee.chunk.js",
-    "main.js.map": "/summer-solstice/static/js/main.4fb47eee.chunk.js.map",
+    "main.js": "/summer-solstice/static/js/main.35d0f6af.chunk.js",
+    "main.js.map": "/summer-solstice/static/js/main.35d0f6af.chunk.js.map",
     "runtime-main.js": "/summer-solstice/static/js/runtime-main.2347b565.js",
     "runtime-main.js.map": "/summer-solstice/static/js/runtime-main.2347b565.js.map",
-    "static/js/2.878de996.chunk.js": "/summer-solstice/static/js/2.878de996.chunk.js",
-    "static/js/2.878de996.chunk.js.map": "/summer-solstice/static/js/2.878de996.chunk.js.map",
+    "static/js/2.25319ab0.chunk.js": "/summer-solstice/static/js/2.25319ab0.chunk.js",
+    "static/js/2.25319ab0.chunk.js.map": "/summer-solstice/static/js/2.25319ab0.chunk.js.map",
     "static/js/3.977ddfcc.chunk.js": "/summer-solstice/static/js/3.977ddfcc.chunk.js",
     "static/js/3.977ddfcc.chunk.js.map": "/summer-solstice/static/js/3.977ddfcc.chunk.js.map",
     "index.html": "/summer-solstice/index.html",
     "static/css/main.32c4cfc9.chunk.css.map": "/summer-solstice/static/css/main.32c4cfc9.chunk.css.map",
-    "static/js/2.878de996.chunk.js.LICENSE.txt": "/summer-solstice/static/js/2.878de996.chunk.js.LICENSE.txt",
+    "static/js/2.25319ab0.chunk.js.LICENSE.txt": "/summer-solstice/static/js/2.25319ab0.chunk.js.LICENSE.txt",
     "static/media/HeartPhoto.b47b9e23.jpeg": "/summer-solstice/static/media/HeartPhoto.b47b9e23.jpeg",
     "static/media/birdFlower.fa4150ec.png": "/summer-solstice/static/media/birdFlower.fa4150ec.png",
     "static/media/bouquet.1ab5a837.png": "/summer-solstice/static/media/bouquet.1ab5a837.png",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2347b565.js",
-    "static/js/2.878de996.chunk.js",
+    "static/js/2.25319ab0.chunk.js",
     "static/css/main.32c4cfc9.chunk.css",
-    "static/js/main.4fb47eee.chunk.js"
+    "static/js/main.35d0f6af.chunk.js"
   ]
 }
