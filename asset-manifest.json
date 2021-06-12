@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/summer-solstice/static/css/main.81858f36.chunk.css",
-    "main.js": "/summer-solstice/static/js/main.25f74792.chunk.js",
-    "main.js.map": "/summer-solstice/static/js/main.25f74792.chunk.js.map",
+    "main.js": "/summer-solstice/static/js/main.bac3c23e.chunk.js",
+    "main.js.map": "/summer-solstice/static/js/main.bac3c23e.chunk.js.map",
     "runtime-main.js": "/summer-solstice/static/js/runtime-main.5052ce67.js",
     "runtime-main.js.map": "/summer-solstice/static/js/runtime-main.5052ce67.js.map",
     "static/css/2.17b251b2.chunk.css": "/summer-solstice/static/css/2.17b251b2.chunk.css",
@@ -35,6 +35,6 @@
     "static/css/2.17b251b2.chunk.css",
     "static/js/2.dcd912f2.chunk.js",
     "static/css/main.81858f36.chunk.css",
-    "static/js/main.25f74792.chunk.js"
+    "static/js/main.bac3c23e.chunk.js"
   ]
 }
