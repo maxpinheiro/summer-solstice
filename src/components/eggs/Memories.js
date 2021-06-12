@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import veteransCover from "../../media/veteransCover.png";
 import veterans from "../../media/veterans.mp4";
 
 const Memories = () => {
+    useEffect(() => {document.title = 'Memories | Solstice 2021'});
+
     return (
         <div className="container calibri mt-3">
             <video width="100%" height="100%" controls poster={veteransCover}>

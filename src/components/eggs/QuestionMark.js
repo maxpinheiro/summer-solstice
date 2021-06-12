@@ -8,6 +8,7 @@ const QuestionMark = () => {
     const [list, setList] = useState(['?']);
 
     useEffect(() => {
+        document.title = '? | Solstice 2021';
         const observer = new IntersectionObserver((entities) => {
             if (entities[0].isIntersecting) {
                 setList(list => list.concat(Array(1000).fill('?')));

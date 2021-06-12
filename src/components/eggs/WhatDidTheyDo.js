@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import bouquet from '../../media/bouquet.png';
 import fieldSunset from '../../media/fieldSunset.png';
 import prometheus from '../../media/prometheus.png';
@@ -7,6 +7,7 @@ import Wobble from "react-reveal/Wobble";
 
 const WhatDidTheyDo = () => {
     const [prometh, setPrometh] = useState(false);
+    useEffect(() => {document.title = 'What Did They Do | Solstice 2021'});
 
     return (
         <div className="container calibri text-center text-5/6rem">

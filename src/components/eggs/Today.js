@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import scale from '../../media/scale.png';
 import yinYang from '../../media/yinYang.png';
 
 const Today = () => {
+        useEffect(() => {document.title = 'Today | Solstice 2021'});
     return (
         <div className="container calibri text-center text-5/6rem">
             <img src={scale} alt="scale" className="w-40vw mx-auto my-3" />

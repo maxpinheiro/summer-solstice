@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { proxy } from 'valtio'
 import quizzes from '../../media/quizzes.json';
 import bird from '../../media/birdFlower.png';
@@ -14,6 +14,8 @@ const Bq = () => {
     const [tiebreakerScore, setTiebreakerScore] = useState(-1);
     const [guess, setGuess] = useState(50);
     const color = () => {const c = colors[state.colorIdx]; state.colorIdx = (state.colorIdx + 1) % colors.length; return c;};
+
+    useEffect(() => {document.title = 'Bachelor\'s Quest | Solstice 2021'});
 
     return (
         <div className="text-center calibri">

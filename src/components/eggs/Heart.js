@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import goldenHeart from '../../media/goldenHeart.png';
 import HeartPhoto from '../../media/HeartPhoto.jpeg';
 
 const Heart = () => {
+    useEffect(() => {document.title = 'Heart | Solstice 2021'});
+
     return (
         <div className="container caveat text-center">
             <div className="d-flex flex-column text-1-1/4rem my-5">

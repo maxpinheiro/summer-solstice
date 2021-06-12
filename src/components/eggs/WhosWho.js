@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import quizzes from '../../media/quizzes.json';
 import { Test, QuestionGroup, Question, Option } from 'react-multiple-choice';
 
@@ -14,6 +14,8 @@ const WhosWho = () => {
     const [score, setScore] = useState(-1);
 
     const grade = (answers) => Object.entries(answers).filter(([question, answer]) => answer === quizzes["whos-who"]["questions"][parseInt(question)]["answer"]).length;
+
+    useEffect(() => {document.title = 'Who\'s Who | Solstice 2021'});
 
     return (
         <div className="container calibri">

@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import sunGlobe from '../../media/sunGlobe.png';
 
 const Thanks = () => {
+    useEffect(() => {document.title = 'Thanks | Solstice 2021'});
+
     return (
         <div className="container calibri text-center">
             <img src={sunGlobe} alt="solstice" className="w-80vw mx-auto my-3" />

@@ -1,7 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import laughingGroup from '../../media/laughingGroup.png';
-import StepProgressBar from 'react-step-progress';
-import 'react-step-progress/dist/index.css';
 
 const options = ['Free Food', 'Lots of Libations', 'Convivial Conversation', 'Consummate Cake', 'Exciting Entertainment', 'Witnessing Whatever', 'Final Fireworks Finale', 'Hoping to Hookup', 'Had nothing better to Do', 'Didn’t want to get on Lisa’s Bad Side'];
 
@@ -14,14 +12,16 @@ const WhyAmIHere = () => {
         else setSelected([...selected, idx]);
     }
 
-    const result = (score) => {
-        if (score >= 8) return 'You\'re a true friend. Enjoy the celebration.';
-        else if (score >= 6) return 'We\'re happy that you came. Enjoy the celebration.';
-        else if (score >= 3) return 'Really, that\'s all. Well, enjoy the celebration anyway.';
-        else return 'Maybe you should have just stayed at home. Try to enjoy the celebration anyway.';
+    const percent = (score) => {
+        if (score >= 8) return "h-100";
+        else if (score >= 6) return "h-75%";
+        else if (score >= 3) return "h-50%";
+        else return "h-25%";
     }
 
-    const submit = (score) => setScore(score);
+    const submit = (score) => {setScore(score); window.scrollTo(0, 0);}
+
+    useEffect(() => {document.title = 'Why Am I Here | Solstice 2021'});
 
     return (
         <div className="container calibri text-center mt-3">
@@ -33,18 +33,27 @@ const WhyAmIHere = () => {
                     <div className="my-3" />
                     <div className="d-flex flex-column">
                         {options.map((option, idx) =>
-                            <p className={`btn mx-auto ${selected.includes(idx) ? 'btn-green' : 'btn-outline-success'}`} onClick={() => updateList(idx)} key={idx}>{option}</p>
+                            <p className={`btn mx-auto ${selected.includes(idx) ? 'btn-success' : 'btn-outline-success'}`} onClick={() => updateList(idx)} key={idx}>{option}</p>
                         )}
                     </div>
-                    <button className="btn bg-green" onClick={() => submit(selected.length)}>Submit</button>
+                    <button className="btn bg-green mb-5" onClick={() => submit(selected.length)}>Submit</button>
                 </div> :
-                <div className="">
-                    <p>Result: {score}/10</p>
-                    {result(score)}
-                    <div className="meter d-flex flex-column">
-                        <span style="width:80%;"><span className="progress"></span></span>
+                <div className="text-1-1/4rem">
+                    <p className="mb-4">Your score: {score}/10</p>
+                    <div className="row">
+                        <div className="col-2">
+                            <div className="px-2 meter-bg">
+                                <div className="meter align-bottom ml-25%" style={{height: `${score * 10 + 5}%`}}/>
+                            </div>
+                        </div>
+                        <div className="col-10 pl-0">
+                            <p className={score >= 8 ? 'text-success font-weight-bold' : 'text-black-50'}>You're a true friend. Enjoy the celebration.</p>
+                            <p className={(score >= 6 && score < 8) ? 'text-success font-weight-bold' : 'text-black-50'}>We're happy that you came. Enjoy the celebration.</p>
+                            <p className={(score >= 3 && score < 6) ? 'text-success font-weight-bold' : 'text-black-50'}>Really, that's all. Well, enjoy the celebration anyway.</p>
+                            <p className={`${score < 3 ? 'text-success font-weight-bold' : 'text-black-50'} mb-0`}>Maybe you should have just stayed at home. Try to enjoy the celebration anyway.</p>
+                        </div>
                     </div>
-                    <button className="btn bg-green d-block mx-auto" onClick={() => {setScore(-1); setSelected([])}}>Retake</button>
+                    <button className="btn bg-green d-block mx-auto my-3" onClick={() => {setScore(-1); setSelected([])}}>Retake</button>
                 </div>
             }
 

@@ -65,10 +65,10 @@ export default class EggCarton extends React.Component {
         return (
             <div className="text-center">
                 <img onClick={() => this.setState(prevState => ({...prevState, show: !prevState.show}))}
-                    src={easterEgg} className="w-5vw mx-auto my-3" />
+                    src={easterEgg} className="w-5vw mx-auto my-3" alt="egg"/>
                 <div className={`${this.state.show ? 'd-flex' : 'd-none'} flex-column`}>
-                    {Object.keys(components).map(comp => (
-                        <Link to={`/easter-egg/${this.titleToHyphen(comp)}`}>{this.splitTitle(comp)}</Link>
+                    {Object.keys(components).map((comp, idx) => (
+                        <Link to={`/easter-egg/${this.titleToHyphen(comp)}`} key={idx}>{this.splitTitle(comp)}</Link>
                     ))}
                 </div>
             </div>

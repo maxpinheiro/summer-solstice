@@ -15,6 +15,7 @@ import dancing from '../media/dancing.png';
 import flowerGirl from '../media/flowerGirl.png';
 import laughing from '../media/laughing.png';
 import runningMan from '../media/runningArmsUp.png';
+import {Link} from "react-router-dom";
 
 export default class Home extends React.Component {
     state = {
@@ -37,6 +38,8 @@ export default class Home extends React.Component {
     }
 
     componentDidMount() {
+        document.title = 'Home | Solstice 2021';
+
         if (this.birdDiv.current) {
             (new IntersectionObserver((entities) => {
                 if (entities[0].isIntersecting) {
@@ -102,7 +105,7 @@ export default class Home extends React.Component {
 
     Menu() {
         return(
-            <div className="minh-100 my-5">
+            <div className="minh-100 my-5">`
                 <Fade left><div className="d-flex flex-column orange-border p-1" id="enticing-edibles">
                     <Spin spy={this.state.bouquet3}><img src={bouquet} alt="bouqet" className="w-40vw mx-auto" onClick={() => this.setState(prevState => ({...prevState, bouquet3: !prevState.bouquet3}))}/></Spin>
                     <p className="milonga text-2rem font-weight-bold text-center">Enticing Edibles</p>
@@ -124,16 +127,15 @@ export default class Home extends React.Component {
             <div className="my-5">
                 <div ref={this.birdDiv} className="d-flex flex-column calibri p-1" id="moment-by-moment">
                     <Slide left opposite when={this.state.bird}><img src={birdFlower} alt="bird" className="w-40vw mx-auto"/></Slide>
-                    <div className="mx-auto">
-                        <p className="font-italic font-weight-bold text-center text-2rem mb-0">Moment by Moment</p>
-                        <p className=" text-center">performed by Matter Movement Group</p>
-                    </div>
+                    <p className="font-italic font-weight-bold text-center text-2rem mt-3">Moment by Moment</p>
                     <div className="mx-auto px-2 text-center">
                         <p>Choreographed by Teddy & Kelly Fatscher</p>
+                        <p className=" text-center">performed by Matter Movement Group:</p>
                         <p>Theodore Fatscher</p>
                         <p>Kelly Fatscher</p>
-                        <p>Number 3</p>
-                        <p>Number 4</p>
+                        <p>Kat Corbett</p>
+                        <p>Desirée Navall</p>
+                        <Link to="/easter-egg/bios">Bios</Link>
                     </div>
                 </div>
             </div>

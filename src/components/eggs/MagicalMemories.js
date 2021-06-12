@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import coupleRun from '../../media/coupleRun.png';
 
 const MagicalMemories = () => {
@@ -9,6 +9,8 @@ const MagicalMemories = () => {
             .then(res => {console.log('Email sent successfully!'); setSent(true);})
             .catch(err => console.log('Oh well, you failed. Here some thoughts on the error that occurred:', err))
     }
+
+    useEffect(() => {document.title = 'Magical Memories | Solstice 2021'});
 
     return (
         <div className="container text-center mt-3">
