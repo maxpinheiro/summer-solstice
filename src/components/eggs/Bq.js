@@ -56,6 +56,11 @@ const Bq = () => {
                                     <div className="h-20vh" />
                                     <p>Your score: {score}</p>
                                     <p>Tiebreaker score: {tiebreakerScore}</p>
+                                    <div className="text-1-1/2rem">
+                                        <p>Special Note: </p>
+                                        <p>I told Lisa we didn't need a photographer for the celebration because (a) this is the digital age and (b) we have great friends.</p>
+                                        <p>Please help me save my marriage by capturing the various  magical elements of the day and texting us your five best pictures tomorrow. Thanks!</p>
+                                    </div>
                                 </div>
                             }
                         </div>

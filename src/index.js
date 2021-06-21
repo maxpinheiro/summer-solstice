@@ -9,6 +9,7 @@ import EggCarton from "./components/EggCarton";
 import GuestBook from "./components/GuestBook";
 import Quizzes from "./components/Quizzes";
 import Error404 from "./components/404";
+import List from "./components/List";
 
 const FourOhFour = () => <div className="text-center"><Error404/><Link to="/">Home</Link></div>
 
@@ -19,6 +20,7 @@ ReactDOM.render(
               <Route exact path="/easter-egg/:name" component={EggCarton}/>
               <Route exact path="/quiz/:gender" component={Quizzes}/>
               <Route exact path="/guestbook" component={GuestBook}/>
+              <Route exact path="/list" component={List}/>
               <Route exact path="/" component={Home}/>
               <Route component={FourOhFour}/>
           </Switch>
