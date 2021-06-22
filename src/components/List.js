@@ -8,7 +8,7 @@ const List = () => {
     return (
         <div className="text-center calibri">
             <div className="my-5" />
-            <Link to="easter-egg/whats-going-on" className="d-block mb-2">What's Going On (?)</Link>
+            <Link to="" className="d-block mb-2">What's Going On (?)</Link>
             <Link to="easter-egg/why-am-i-here" className="d-block my-2">Why Am I Here (?)</Link>
             <Link to="easter-egg/memories" className="d-block my-2">Memories (?)</Link>
             <Link to="easter-egg/what-did-they-do" className="d-block my-2">I Do (?)</Link>
